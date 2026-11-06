@@ -1,0 +1,142 @@
+{
+  "observedOn": "2026-11-06",
+  "sourceUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/next-steps?autoSkip=true&leis=OCN&resume=false&u=57692769",
+  "access": "public HTTP; no authenticated playback",
+  "title": "Introduction to Agentic AI Governance",
+  "videoCount": 14,
+  "totalDurationSeconds": 3158,
+  "videos": [
+    {
+      "index": 1,
+      "title": "Time to govern intelligence",
+      "durationSeconds": 46,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/time-to-govern-intelligence?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 2,
+      "title": "The evolving risks of AI",
+      "durationSeconds": 261,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/the-evolving-risks-of-ai?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 3,
+      "title": "An overview of the governance landscape",
+      "durationSeconds": 220,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/an-overview-of-the-governance-landscape?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 4,
+      "title": "The challenges of governing AI",
+      "durationSeconds": 218,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/the-challenges-of-governing-ai?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 5,
+      "title": "What is agentic AI?",
+      "durationSeconds": 272,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/what-is-agentic-ai?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 6,
+      "title": "Understanding the agency of AI",
+      "durationSeconds": 261,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/understanding-the-agency-of-ai?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 7,
+      "title": "The urgency behind agentic AI governance",
+      "durationSeconds": 234,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/the-urgency-behind-agentic-ai-governance?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 8,
+      "title": "Transparency",
+      "durationSeconds": 283,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/transparency?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 9,
+      "title": "AI safety alignment",
+      "durationSeconds": 271,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/ai-safety-alignment?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 10,
+      "title": "Accountability",
+      "durationSeconds": 251,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/accountability?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 11,
+      "title": "Best practices for documenting governance in agentic AI",
+      "durationSeconds": 255,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/best-practices-for-documenting-governance-in-agentic-ai?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 12,
+      "title": "Dimensions of agentic AI governance",
+      "durationSeconds": 259,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/dimensions-of-agentic-ai-governance?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 13,
+      "title": "The road ahead",
+      "durationSeconds": 261,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/the-road-ahead?autoplay=true&trk=learning-course_tocItem"
+    },
+    {
+      "index": 14,
+      "title": "Next steps",
+      "durationSeconds": 66,
+      "publicLessonUrl": "https://www.linkedin.com/learning/introduction-to-agentic-ai-governance/next-steps?autoplay=true&trk=learning-course_tocItem"
+    }
+  ],
+  "referenceSchedule": {
+    "method": "minimum longest contiguous segment; eight slots; earliest cut on ties",
+    "rate": 1,
+    "includesLoadingOverhead": false,
+    "segments": [
+      {
+        "firstVideo": 1,
+        "lastVideo": 2,
+        "durationSeconds": 307
+      },
+      {
+        "firstVideo": 3,
+        "lastVideo": 4,
+        "durationSeconds": 438
+      },
+      {
+        "firstVideo": 5,
+        "lastVideo": 5,
+        "durationSeconds": 272
+      },
+      {
+        "firstVideo": 6,
+        "lastVideo": 7,
+        "durationSeconds": 495
+      },
+      {
+        "firstVideo": 8,
+        "lastVideo": 8,
+        "durationSeconds": 283
+      },
+      {
+        "firstVideo": 9,
+        "lastVideo": 10,
+        "durationSeconds": 522
+      },
+      {
+        "firstVideo": 11,
+        "lastVideo": 12,
+        "durationSeconds": 514
+      },
+      {
+        "firstVideo": 13,
+        "lastVideo": 14,
+        "durationSeconds": 327
+      }
+    ],
+    "makespanSeconds": 522
+  }
+}

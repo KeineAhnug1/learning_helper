@@ -1,0 +1,173 @@
+{
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "partial",
+        "no_question",
+        "unreadable"
+      ]
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer"
+          },
+          "visibleLabel": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "questionText": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "single_choice",
+              "multiple_choice",
+              "free_text",
+              "unknown"
+            ]
+          },
+          "requiredSelectionCount": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "visibleLabel": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "position": {
+                  "type": "integer"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "isSelected": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "visibleLabel",
+                "position",
+                "text",
+                "isSelected"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "selectedOptionIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "textAnswers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "fieldId": {
+                  "type": "string"
+                },
+                "fieldLabel": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "fieldId",
+                "fieldLabel",
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "answerable",
+              "uncertain",
+              "needs_more_context"
+            ]
+          },
+          "issues": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "order",
+          "visibleLabel",
+          "questionText",
+          "language",
+          "kind",
+          "requiredSelectionCount",
+          "options",
+          "selectedOptionIds",
+          "textAnswers",
+          "explanation",
+          "status",
+          "issues"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "status",
+    "questions",
+    "issues"
+  ],
+  "additionalProperties": false
+}

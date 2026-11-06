@@ -1,0 +1,10 @@
+node_modules/
+extension/dist/
+extension/releases/
+extension/test-results/
+extension/playwright-report/
+*.tsbuildinfo
+.DS_Store
+macos/.build/
+macos/build/
+macos/.swiftpm/

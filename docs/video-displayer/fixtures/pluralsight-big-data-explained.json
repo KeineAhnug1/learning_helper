@@ -1,0 +1,106 @@
+{
+  "observedOn": "2026-11-06",
+  "sourceUrl": "https://www.pluralsight.com/courses/big-data-explained",
+  "access": "public HTTP; no authenticated playback",
+  "title": "Big Data Explained",
+  "videoCount": 8,
+  "totalDurationSeconds": 1896,
+  "videos": [
+    {
+      "index": 1,
+      "title": "What Is Big Data?",
+      "durationSeconds": 142,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 2,
+      "title": "What Big Data Is Not",
+      "durationSeconds": 288,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 3,
+      "title": "Big Data Framework",
+      "durationSeconds": 270,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 4,
+      "title": "Getting Big Data to Work",
+      "durationSeconds": 318,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 5,
+      "title": "Big Data and Cloud Computing",
+      "durationSeconds": 309,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 6,
+      "title": "Why We Need Big Data",
+      "durationSeconds": 242,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 7,
+      "title": "Big Data and Decision Making",
+      "durationSeconds": 182,
+      "publicLessonUrl": null
+    },
+    {
+      "index": 8,
+      "title": "Wrap Up",
+      "durationSeconds": 145,
+      "publicLessonUrl": null
+    }
+  ],
+  "referenceSchedule": {
+    "method": "minimum longest contiguous segment; eight slots; earliest cut on ties",
+    "rate": 1,
+    "includesLoadingOverhead": false,
+    "segments": [
+      {
+        "firstVideo": 1,
+        "lastVideo": 1,
+        "durationSeconds": 142
+      },
+      {
+        "firstVideo": 2,
+        "lastVideo": 2,
+        "durationSeconds": 288
+      },
+      {
+        "firstVideo": 3,
+        "lastVideo": 3,
+        "durationSeconds": 270
+      },
+      {
+        "firstVideo": 4,
+        "lastVideo": 4,
+        "durationSeconds": 318
+      },
+      {
+        "firstVideo": 5,
+        "lastVideo": 5,
+        "durationSeconds": 309
+      },
+      {
+        "firstVideo": 6,
+        "lastVideo": 6,
+        "durationSeconds": 242
+      },
+      {
+        "firstVideo": 7,
+        "lastVideo": 7,
+        "durationSeconds": 182
+      },
+      {
+        "firstVideo": 8,
+        "lastVideo": 8,
+        "durationSeconds": 145
+      }
+    ],
+    "makespanSeconds": 318
+  }
+}

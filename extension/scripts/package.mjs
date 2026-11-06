@@ -1,0 +1,11 @@
+import { execFileSync } from 'node:child_process';
+import { mkdir, rm } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root = fileURLToPath(new URL('../', import.meta.url));
+execFileSync(process.execPath, ['scripts/build.mjs'], { cwd: root, stdio: 'inherit' });
+await mkdir(path.join(root, 'releases'), { recursive: true });
+const zip = path.join(root, 'releases/video-displayer-0.1.9.zip');
+await rm(zip, { force: true });
+execFileSync('zip', ['-qr', zip, '.'], { cwd: path.join(root, 'dist'), stdio: 'inherit' });
+console.log(zip);

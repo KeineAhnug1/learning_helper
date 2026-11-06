@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Learning Helper · Video Displayer",
+  "version": "0.1.9",
+  "description": "Videokurse nach Laufzeit auf bis zu acht native Chrome-Ansichten verteilen.",
+  "minimum_chrome_version": "155",
+  "permissions": [
+    "storage",
+    "alarms",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://www.linkedin.com/learning/*",
+    "https://app.pluralsight.com/*"
+  ],
+  "action": {
+    "default_title": "Video Displayer öffnen"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.linkedin.com/learning/*",
+        "https://app.pluralsight.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
